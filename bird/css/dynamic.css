@@ -1,0 +1,131 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			.clear:after{
+				content:"";
+				display: block;
+				clear: both;
+			}
+			.center{
+				width: 100%;
+				background-color: #F1F2F6;
+			}
+			.nav{
+				width: 1130px;
+				margin: auto;
+				padding-top: 120px;
+			}
+			.nav_top_text{
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			.nav_top_text h1{
+				font:bolder 54px "楷体";
+				color: #311759;
+			}
+			.nav_top_text h2{
+				font: 18px Arial;
+				color: #311759;
+				letter-spacing: 6px;
+			}
+			.liebiao{
+				font: 30px "楷体";
+				color:#311759;
+				width: 1100px;
+				height: 60px;
+				background: url(../img/pen_line_long.png) no-repeat 0 58px;
+				position: relative;
+			}
+			.pen{
+				display: inline-block;
+				width: 61px;
+				height: 58px;
+				position: absolute;
+				top: 7px;
+				right: 0;
+				background: url(../img/pen_list.png) no-repeat 0 0;
+			}
+			.pen:hover{
+				background-position: -61px 0;
+			}
+			.nav_center{
+				width: 1130px;
+				height: 800px;
+				padding-top: 40px;
+				overflow: hidden;
+			}
+			.nav_center_nav{
+				width: 513px;
+				height: 202px;
+				padding: 36px 0 0 20px;
+				margin: 0 20px 30px 0;
+				background-color: #FFFFFF;
+				border: 1px solid #FFFFFF;
+				float: left;
+				position: relative;
+			}
+			.nav_center_navp{
+				float: left;
+				margin-right: 10px;
+			}
+			.nav_center_navt{
+				float: left;
+			}
+			.nav_center_navtt{
+				width: 221px;
+				height: 26px;
+				font: 20px/26px "楷体";
+				color: #454548;
+				padding-top: 15px;
+			}
+			.nav_center_navtd{
+				color: #6b6a6f;
+				font: 14px Arial;
+				padding-top: 2px;
+			}
+			.nav_center_navt p{
+				width: 221px;
+				height: 100px;
+				padding-top: 8px;
+				color: #47464a;
+				font: 15px/25px "楷体";
+			}
+			.nav_center_sj{
+				width: 14px;
+				height: 9px;
+				position: absolute;
+				left: 0px;
+				top: 36px;
+				background: url(../img/list_img_over_xiaojiantou.png) no-repeat 0 0;
+			}
+			.nav_center_nav:hover{
+				transform:translateY(-5px);
+				border: 1px solid #000000;
+				transition: all .5s;
+				
+			}
+			.nav_center_nav:hover .nav_center_sj{
+				left: 50px;
+				transition: all .5s;
+			}
+			.nav_bottom{
+				width: 107px;
+				height: 175px;
+				margin:10px auto;
+				background: url(../img/list_gomore_bg.jpg) no-repeat 0 0 ;
+			}
+			.nav_foot{
+				width: 58px;
+				height: 58px;
+				margin:20px auto 60px;
+				background: url(../img/lis_more_btn_bg.png) no-repeat 0 -58px;
+			}
+			.nav_foot:hover{
+				background-position: 0 0;
+				transition: all .5s;
+			}
+			.nav_last{
+				width: 100%;
+				height: 33px;
+			}

@@ -1,0 +1,147 @@
+*{
+				margin: 0;
+			}
+			.on{
+				cursor: pointer;
+			}
+			.clear:after{
+				content:"";
+				display: block;
+				clear: both;
+			}
+			.head{
+				width: 100%;
+				height: 120px;
+			}
+			.nav_text{
+				width: 1100px;
+				height: 120px;
+				margin: auto;
+				text-align: center;
+				padding: 40px 0;
+			}
+			.nav_text h1{
+				font:bolder 54px "楷体";
+				color: #311759;
+			}
+			.nav_text h2{
+				font: 18px Arial;
+				color: #311759;
+				letter-spacing: 6px;
+			}
+			.center{
+				width: 100%;
+				background-color: #F1F2F6;
+				position: relative;
+			}
+			.center_nav{
+				width: 1100px;
+				background-color: #FFFFFF;
+				margin: auto;
+			}
+			.nav_top_text{
+				text-align: center;
+				margin: auto;
+			}
+			.title{
+				padding-top: 60px;
+				font:bolder 54px "楷体";
+				color: #311759;
+			}
+			.Headlines{
+				font: 18px Arial;
+				color: #311759;
+				letter-spacing: 6px;
+			}
+			.lb{
+				font: 26px "楷体";
+				color:#311759;
+				width: 780px;
+				height: 60px;
+				margin:60px auto 0;
+				background: url(../img/pen_line_long.png) no-repeat 0 58px;
+				position: relative;
+			}
+			.pen{
+				display: inline-block;
+				width: 61px;
+				height: 58px;
+				position: absolute;
+				top: 7px;
+				right: 0;
+				background: url(../img/pen_article.png) no-repeat 0 0;
+			}
+			.pen:hover{
+				background-position: -61px 0;
+			}
+			.time{
+				width: 780px;
+				margin:0 auto 60px;
+				font: 15px/30px "楷体";
+				color:#6b6a6f;
+			}
+			.picture{
+				width: 780px;
+				height: 231px;
+				margin: 0 auto 60px;
+			}
+			.words{
+				width: 780px;
+				margin: auto;
+			}
+			.words h3{
+				font: 20px/24px "楷体";
+				padding: 20px 0;
+			}
+			.words p{
+				font: 15px/24px "楷体";
+			}
+			.center_bottom{
+				height: 33px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+			}
+			.like{
+				width: 200px;
+				height: 400px;
+				margin-left: 500px;
+				margin-top: 100px;
+			}
+			.like_pic{
+				width: 73px;
+				height: 73px;
+				background:url(../img/article_iflike.png) no-repeat 0 0;
+				position: relative;
+				overflow: hidden;
+			}
+			.likema{
+				width: 135px;
+				height: 35px;
+				position:absolute;
+				left: 75px;
+				top: 18px;
+				background: url(../img/article_iflike_nomberbg.png)no-repeat 0 0;
+				text-align: center;
+				font: 18px/35px "楷体";
+				color:#FFFFFF
+			}
+			.like_pic:hover{
+				width: 210px;
+				transition: all .5s;
+				animation:1s linear 0s normal none 1 running jump;
+			}
+			.nav_top{
+				position: relative;
+			}
+			.like_nav{
+				width: 255px;
+				height: 86px;
+				text-align: center;
+				font: 30px/86px "楷体";
+				background:#F1F2F6;
+				position: absolute;
+				left: 415px;
+				bottom: 200px;
+				opacity: 0;
+			}

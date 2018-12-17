@@ -1,0 +1,466 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.clear:after{
+				content:"";
+				display: block;
+				clear: both;
+			}
+			.on{
+				cursor: pointer;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+			.box{
+				width: 100%;
+				height: 100%;
+			}
+			.popup{
+				width: 100%;
+				height: 100%;
+				background-color: #299ad6;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 100;
+			}
+			.popup_gif{
+				width: 400px;
+				height: 400px;
+				margin:100px auto 0;
+			}
+			.popup_text{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 440px;
+				font: 22px/30px "楷体";
+				color: #FFFFFF;
+				display: none;
+			}
+			.xwsy{
+				width: 450px;
+				height: 80px;
+				text-align: center;
+				margin: 20px auto;
+				position: relative;
+			}
+			.xwsy h1{
+				line-height: 80px;
+			}
+			.xwsy p{
+				font-size:20px;
+			}
+			.header{
+				width: 100%;
+				height: 50px;
+				background:#221236 url(../img/aboutxiaoniao/beader_bg.jpg) no-repeat 0 0;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 99;
+			}
+			.header_content{
+				width: 1100px;
+				height: 50px;
+				margin: auto;	
+			}
+			.header_content_pic{
+				float: left;
+			}
+			.header_nav{
+				width: 930px;
+				height: 25px;
+				padding-top: 11px;
+				float: right;
+			}
+			.header_nav_txt{
+				height: 30px;
+				float: left;
+				font:bolder 16px/25px "楷体";
+				color: #aeabb4;
+				margin: 0 10px;
+				position: relative;
+			}
+			.header_nav_txt:hover{
+				background: url(../img/nav_now_bg.png) no-repeat center bottom;
+				color: #FFFFFF;
+				transition: all .5s;
+			}
+			.cur{
+				color: #FFFFFF;
+				background: url(../img/nav_now_bg.png) no-repeat center bottom;
+			}
+			.center{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			.bannertu{
+				width: 100%;
+				height: 500%;
+			}
+			.banner{
+				width: 100%;
+				height: 25%;
+			}
+			.banner1{
+				background: #221236;
+				color: #FFFFFF;
+				position: relative;
+			}
+			.banner1_gif{
+				width: 400px;
+				height: 400px;
+				margin: auto;
+				padding-top: 50px;
+			}
+			.banner1_text{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 440px;
+				font: 20px/30px "楷体";
+				color: #FFFFFF;
+			}
+			.banner1_xwsy{
+				width: 450px;
+				height: 80px;
+				text-align: center;
+				margin: auto;
+				position: relative;
+			}
+			.banner1_xwsy h1{
+				line-height: 80px;
+			}
+			.banner1_xwsy p{
+				font-size:20px;
+			}
+			.turndown{
+				width: 58px;
+				height: 58px;
+				margin:30px auto;
+				background: url(../img/aboutxiaoniao/donext.png) no-repeat 0 -58px;
+			}
+			.turndown:hover{
+				background-position: 0 0;
+				transition: all .5s;
+			}
+			.banner2{
+				overflow: hidden;
+				position: relative;
+			}
+			.banner2_nav{
+				width: 300%;
+				height: 100%;
+			}
+			.banner_banner{
+				width: 33.3%;
+				height: 100%;
+				float: left;
+			}
+			.banner_banner1_nav{
+				width: 1100px;
+				height: 100%;
+				margin: auto;
+				text-align: center;
+			}
+			.banner_banner1_nav h1{
+				padding: 200px 0 20px 0;
+				font:bolder 54px "楷体";
+				color: #311759;
+			}
+			.banner_banner1_nav_text{
+				width: 630px;
+				height: 80px;
+				margin: auto;
+				position: relative;
+				font: 18px/30px "楷体";
+			}
+			.banner_banner1_nav_pic img{
+				margin: 20px 30px 0 0;
+			}
+			.banner_banner_left{
+				width: 58px;
+				height: 58px;
+				background: url(../img/aboutxiaoniao/goleft.png) no-repeat 0 0;
+				position: absolute;
+				left: 20px;
+				top: 48%;
+				opacity: 0.5;
+			}
+			.banner_banner_right{
+				width: 58px;
+				height: 58px;
+				background: url(../img/aboutxiaoniao/goright.png) no-repeat -58px 0;
+				position: absolute;
+				right: 20px;
+				top: 48%;
+				opacity: 1;
+			}
+			.banner_banner_left:hover{
+				background-position: -58px 0;
+				transition: all .5s;
+			}
+			.banner_banner_right:hover{
+				background-position: 0 0;
+				transition: all .5s;
+			}
+			.banner_banner2_nav{
+				width: 1100px;
+				height: 100%;
+				margin: auto;
+				text-align: center;
+			}
+			.banner_banner_nav_pic{
+				padding: 200px 0 50px 0;
+			}
+			.banner_banner2_text{
+				width: 770px;
+				height: 100px;
+				margin:40px auto;
+			}
+			.banner_banner2_text_left{
+				width: 99px;
+				height: 99px;
+				float: left;
+			}
+			.banner_banner2_text_right{
+				width: 520px;
+				height: 99px;
+				margin-left: 55px;
+				float: left;
+			}
+			.banner_banner2_text_right h2{
+				font: normal 24px "楷体";
+				color: #6b6a6f;
+				margin-top: 20px;
+				text-align: left;
+			}
+			.banner_banner2_text_right p{
+				font: normal 18px "楷体";
+				color: #6b6a6f;
+				text-align: left;
+			}
+			.banner_banner3_nav{
+				width: 1100px;
+				height: 100%;
+				margin: auto;
+				text-align: center;
+			}
+			.banner_banenr3_xwsy{
+				width: 450px;
+				height: 80px;
+				text-align: center;
+				margin:0 auto 20px;
+				font: 20px/30px "楷体";
+				position: relative;
+			}
+			.banner_banenr3_xwsy h1{
+				line-height: 80px;
+			}
+			.banner_banner3_text p{
+				width: 730px;
+				height: 150px;
+				font: 18px/30px "楷体";
+				color: #6b6a6f;
+				text-align: left;
+				text-indent: 2rem;
+				margin: auto;
+			}
+			.banner3{
+				background-color: #221236;
+				color: #FFFFFF;
+			}
+			.banner3_nav_top{
+				text-align: center;
+				padding-top:200px;
+				margin: auto;
+			}
+			.banner3_nav_top h1{
+				font: 48px "楷体";
+				margin-bottom: 100px;;
+			}
+			.banner3_nav_center{
+				width: 1100px;
+				height: 400px;
+				margin: auto;
+			}
+			.banner3_nav_center_pic{
+				width: 970px;
+				height: 20px;
+				margin: 10px auto;
+				position: relative;
+			}
+			.banner3_nav_center_center{
+				width: 850px;
+				height: 320px;
+				margin:auto;
+			}
+			.banner3_nav_pic1 img{
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.banner3_nav_pic2 img{
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			.banner3_nav_pic3 img{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			.banner3_nav_pic4 img{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			.center_center{
+				width: 390px;
+				height: 74px;
+				float: left;
+				margin: 0 30px 40px 0;
+			}
+			.number{
+				width: 74px;
+				height: 74px;
+				background: url(../img/aboutxiaoniao/jiazhi_quanquan.png) no-repeat 0 0;
+				font: 14px/74px Arial;
+				text-align: center;
+				float: left;
+				margin-right: 27px;
+			}
+			.center_center p{
+				width: 280px;
+				margin-top: 13px;
+				font: 18px "楷体";
+				float: left;
+			}
+			.banner4_nav{
+				width: 1100px;
+				margin: auto;
+			}
+			.banner4_nav_top h1{
+				font:bolder 54px "楷体";
+				text-align: center;
+				color: #311759;
+				padding-top: 200px;
+				margin-bottom: 20px;
+			}
+			.banner4_nav_text{
+				width: 910px;
+				height: 396px;
+				background: url(../img/aboutxiaoniao/xuxian_bg.png);
+				margin: auto;
+				overflow: hidden;
+			}
+			.banner4_nav_text p{
+				font:16px/36px "楷体";
+				color: #535355;
+			}
+			.banner4_nav_txt{
+				width: 1820px;
+				height: 396px;
+			}
+			.banner4_nav_text_nav{
+				width: 910px;
+				height: 396px;
+				float: left;
+			}
+			.banner4_nav_text1 p{
+				text-indent: 2rem;
+			}
+			.banner4_nav_text2{
+				margin-top: 36px;
+			}
+			.banner4_nav_text3{
+				text-indent: 2rem;
+				margin-top: 72px;
+			}
+			.banner4_nav_text4{
+				margin-top: 36px;
+				text-indent: 2rem;
+			}
+			.banner4_nav_bottom{
+				width: 204px;
+				height: 8px;
+				margin:20px auto;
+			}
+			.banner4_nav_bottom_left{
+				width: 78px;
+				height: 8px;
+				border-radius: 4px;
+				background:#ACACAC url(../img/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 0;
+				margin: 0 12px;
+				overflow: hidden;
+				float: left;
+			}
+			.banner4_nav_bottom_right{
+				width: 78px;
+				height: 8px;
+				border-radius: 4px;
+				background:#ACACAC url(../img/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat -78px 0px;
+				margin: 0 12px;
+				overflow: hidden;
+				float: left;
+			}
+			.cuur{
+				cursor: default;
+			}
+			.banner5{
+				background: url(../img/aboutxiaoniao/app&contacts_bg.gif) no-repeat center center;
+			}
+			.banner5_nav{
+				width: 910px;
+				height: 540px;
+				margin: auto;
+				position: relative;
+			}
+			.banner5_nav_top{
+				width: 910px;
+				height: 315px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -90px;
+				margin-left:-570px;
+				color: #FFFFFF;
+			}
+			.banner5_nav_top p{
+				position: absolute;
+				left:213px;
+				top: 0px;
+				font: 15px "楷体";
+			}
+			.banner5_nav_top h1{
+				position: absolute;
+				left: 550px;
+				top: 113px;
+				font: 30px "楷体";
+			}
+			.banner5_nav_top img{
+				margin-left: 145px;
+			}
+			.banner5_nav_bottom{
+				width: 380px;
+				height: 170px;
+				position: absolute;
+				top: 550px;
+				left: 430px;
+				color: #191919;
+			}
+			.banner5_nav_bottom h1{
+				width: 380px;
+				height: 60px;
+				margin-bottom: 14px;
+				background: url(../img/aboutxiaoniao/contacts_line.png) no-repeat bottom left;
+				font:bolder 30px/60px "楷体";
+			}
+			.banner5_nav_bottom p{
+				font: 14px/32px "楷体";
+			}
